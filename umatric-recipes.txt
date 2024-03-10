@@ -29,7 +29,7 @@ Amazon
 		_ media-amazon.com * allow
 		_ ssl-images-amazon.com * allow
 
-Amazon - Honey
+Amazon-Honey
 	amazon.com *
 		_ honey.io * allow
 
