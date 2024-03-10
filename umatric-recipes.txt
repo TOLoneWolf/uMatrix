@@ -46,6 +46,7 @@ Discord
 
 Aliexpress
 	aliexpress.us *
+	aliexpress.com *
 		_ alipay.com * allow
 		_ alipayobjects.com * allow
 		_ itscenter.alipay.com frame allow
