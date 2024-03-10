@@ -26,6 +26,24 @@
 !		_ ytimg.com *
 !		_ ytimg.com script
 
+
+Global Paypal
+	* paypal.com
+		* paypal.com * allow
+		* paypal.com frame allow
+		* paypalobjects.com * allow
+		* paypalobjects.com frame allow
+
+Global MS_Auth
+	* msauth.net
+		* msauth.net * allow
+
+Global ReCaptcha
+	* recaptcha.net frame allow
+		* recaptcha.net * allow
+		* recaptcha.net frame allow
+
+
 Amazon
 	amazon.com *
 		_ amazonaws.com * allow
@@ -166,3 +184,31 @@ Ebay Desc
 	* ebaydesc.com
 		_ ebaydesc.com * allow
 		_ebaystatic.com * allow
+
+Live
+	live.com *
+		_ azure.com * allow
+		_ azureedge.net * allow
+		_ microsoft.com * allow
+		_ microsoft.com frame allow
+		_ microsoftonline.com * allow
+		_ microsoftonline.com frame allow
+		_ msauth.net frame allow
+		_ msftauth.net * allow
+		_ msftauth.net frame allow
+		_ msocdn.com * allow
+		_ office.com * allow
+		_ office.com frame allow
+		_ office.net * allow
+		_ office.net frame allow
+		_ office365.com * allow
+		_ onedrive.com * allow
+		_ sfx.ms * allow
+		_ sfx.ms frame allow
+		_ skype.com * allow
+		_ svc.ms * allow
+
+login.live.com
+	login.live.com *
+		_ msauth.net * inherit
+
