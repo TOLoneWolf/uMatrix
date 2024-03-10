@@ -105,7 +105,7 @@ Aliexpress com
 		_ sentry.io * allow
 		_ taobao.com * allow
 		_ wp.aliexpress.com frame allow
-		_ aliexpress.com * allow
+		_ aliexpress.us * allow
 
 Aniwave
 	aniwave.to *
