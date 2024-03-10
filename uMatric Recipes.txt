@@ -1,3 +1,4 @@
+! uMatrix > Assets > Ruleset recipes > import: https://raw.githubusercontent.com/TOLoneWolf/uMatrix/main/uMatric%20Recipes.txt
 ! uMatrix: Ruleset recipes 1.0
 ! Title: Rulesets for English websites
 !
@@ -6,15 +7,58 @@
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
+!		_ 1st-party *
+!		_ 1st-party cookie
+!		_ 1st-party script
+!Youtube as 3rd-party
+!	* youtube.com
+!		_ youtube.com *
+!		_ youtube.com script
+!		_ youtube.com frame
+!		_ googlevideo.com *
+!		_ googlevideo.com xhr
+!		_ ytimg.com *
+!		_ ytimg.com script
 
+Amazon
+	amazon.com *
+		_ amazonaws.com * allow
+		_ awsstatic.com * allow
+		_ here.com * allow
+		_ live-video.net * allow
+		_ media-amazon.com * allow
+		_ ssl-images-amazon.com * allow
+
+Amazon - Honey
+	amazon.com *
+		_ honey.io * allow
 
 Discord
 	discord.com *
-		_ 1st-party *
-		_ 1st-party cookie
-		_ 1st-party script
+
 		_ discord.gg *
-		_ discord.gg xhr
-		_ discordapp.net *
 		_ cloudfront.net * allow
 		_ cloudfront.net frame allow
+
+Aliexpress
+	aliexpress.com *
+	aliexpress.us *
+		_ alipay.com * allow
+		_ alipayobjects.com * allow
+		_ itscenter.alipay.com frame allow
+		_ passport.aliexpress.com frame allow
+		_ alicdn.com * allow
+		_ aliapp.org * allow
+		_ alibaba.com * allow
+		_ is.alicdn.com frame allow
+		_ aliexpress-media.com * allow
+		_ aliyun.com * allow
+		_ braintreegateway.com * allow
+		_ click.aliexpress.com * inherit
+		_ ds-aksb-a.akamaihd.net * inherit
+		_ feedback.aliexpress.com frame allow
+		_ login.aliexpress.com frame allow
+		_ sentry.io * allow
+		_ taobao.com * allow
+		_ wp.aliexpress.com frame allow
+		_ aliexpress.com * allow
