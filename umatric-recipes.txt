@@ -290,3 +290,35 @@ microsoftonline
 		_ live.com * allow
 		_ login.live.com frame allow
 
+redd.it
+	redd.it *
+		redd.it redditstatic.com * allow
+
+reddit.com
+	reddit.com *
+		_ amazonaws.com * allow
+		_ embedly.com * allow
+		_ embedly.com frame allow
+		_ redd.it * allow
+		_ redd.it frame allow
+		_ redditmedia.com * allow
+		_ redditmedia.com frame allow
+		_ redditspace.com * allow
+		_ redditstatic.com * allow
+		_ redditstatic.com frame allow
+		_ sentry.io * allow
+
+redditmail.com
+	* redditmail.com
+		redditmail.com click.redditmail.com * inherit
+
+steamcommunity.com
+	steamcommunity.com *
+		_ steamstatic.com * allow
+
+steampowered.com
+	steampowered.com *
+		_ recaptcha.net * allow
+		_ steamcommunity.com * allow
+		_ steamcommunity.com frame allow
+		_ steamstatic.com * allow
