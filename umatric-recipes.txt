@@ -39,7 +39,7 @@ Global MS_Auth
 		* msauth.net * allow
 
 Global ReCaptcha
-	* recaptcha.net frame allow
+	* recaptcha.net
 		* recaptcha.net * allow
 		* recaptcha.net frame allow
 
