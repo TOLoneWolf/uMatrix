@@ -1,0 +1,20 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Rulesets for English websites
+!
+! https://github.com/uBlockOrigin/uAssets/blob/4ca25b377bb42add2a1cd753eddb738b89239971/recipes/recipes_en.txt
+!
+! Lines starting with character "!" are ignored.
+! Character "_" is an alias for "currently selected scope".
+! An empty line MUST be used to separate distinct ruleset recipes.
+
+
+Discord
+	discord.com *
+		_ 1st-party *
+		_ 1st-party cookie
+		_ 1st-party script
+		_ discord.gg *
+		_ discord.gg xhr
+		_ discordapp.net *
+		_ cloudfront.net * allow
+		_ cloudfront.net frame allow
