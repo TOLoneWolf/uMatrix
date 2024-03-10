@@ -168,6 +168,7 @@ icloud
 	icloud.com *
 		_ apple-cloudkit.com * allow
 		_ apple.com * allow
+		_ apple.com frame allow
 		_ cdn-apple.com * allow
 		_ icloud-sandbox.com * allow
 		_ idmsa.apple.com frame allow
@@ -238,4 +239,54 @@ iFixit
 		_ shopifysvc.com * allow
 		_ www.youtube-nocookie.com frame allow
 		_ youtube-nocookie.com * allow
+
+imdb
+	imdb.com *
+		_ amazon.com * allow
+		_ media-amazon.com * allow
+		_ media-imdb.com * allow
+		_ ssl-images-amazon.com * allow
+
+microsoft
+	microsoft.com *
+		_ akamaized.net * allow
+		_ aspnetcdn.com * allow
+		_ azure.com * allow
+		_ azure.net * allow
+		_ azureedge.net * allow
+		_ azurefd.net * allow
+		_ gfx.ms * allow
+		_ live.com * allow
+		_ microsoftonline.com * allow
+		_ microsofttranslator.com * allow
+		_ msecnd.net * allow
+		_ msftedu.com * allow
+		_ msftenterprise.sc.omtrdc.net * allow
+		_ office.com * allow
+		_ office.net * allow
+		_ onestore.ms * allow
+		_ optiabtests.s3.eu-west-2.amazonaws.com * allow
+		_ reactblade.portal.azure.net frame allow
+		_ s-microsoft.com * allow
+		_ target.microsoft.com * inherit
+		_ undefined * allow
+		_ windows.net * allow
+
+microsoft365
+	microsoft365.com *
+		_ azure.com * allow
+		_ login.microsoftonline.com frame allow
+		_ microsoft.com * allow
+		_ microsoftonline.com * allow
+		_ msftauth.net * allow
+		_ office.com * allow
+		_ office.net * allow
+		_ office365.com * allow
+		_ substrate.office.com frame allow
+		_ webshell.suite.office.com frame allow
+
+microsoftonline
+	microsoftonline.com *
+		_ live.com * allow
+		_ login.live.com frame allow
 
