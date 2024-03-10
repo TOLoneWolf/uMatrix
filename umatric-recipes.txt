@@ -67,3 +67,50 @@ Aliexpress
 		_ taobao.com * allow
 		_ wp.aliexpress.com frame allow
 		_ aliexpress.com * allow
+
+Aniwave
+	aniwave.to *
+		_ 1antiphonon.online * allow
+		_ 1envoyship.online * allow
+		_ 2dotingness.online * allow
+		_ 2freethinking.online * allow
+		_ a23b7c6ea.site * allow
+		_ a25dd4010.site * allow
+		_ a2857ac45.site * allow
+		_ a29b8f603.site * allow
+		_ asccdn.com * allow
+		_ bidgear.com * allow
+		_ cdn112.com * allow
+		_ daisyalanis.online * allow
+		_ daisyalanis.site * allow
+		_ daisyalanis.store * allow
+		_ disqus.com * allow
+		_ disqus.com frame allow
+		_ disquscdn.com * allow
+		_ disquscdn.com frame allow
+		_ dvsdvsdvsdva.com * allow
+		_ exdynsrv.com * allow
+		_ filemoon.sx * allow
+		_ filemoon.sx frame allow
+		_ filemoon.to * allow
+		_ interviewidiomantidote.com * allow
+		_ mcloud.bz * allow
+		_ mcloud.bz frame allow
+		_ mcloud.to * allow
+		_ mcloud.to frame allow
+		_ mv21h0jna.online * allow
+		_ mv22r2n5m.online * allow
+		_ mv23fez8d.online * allow
+		_ mv24a9e7k.online * allow
+		_ placingsolemnlyinexpedient.com * allow
+		_ referrer.disqus.com * inherit
+		_ sharethis.com * allow
+		_ tignuget.net * allow
+		_ vidplay.online * allow
+		_ vidplay.online frame allow
+		_ vidstream.pro * allow
+		_ vidstream.pro frame allow
+		_ visaverde.xyz * allow
+		_ vizcloud.club * allow
+		_ vizcloud.site * allow
+		_ vizcloud.site frame allow
