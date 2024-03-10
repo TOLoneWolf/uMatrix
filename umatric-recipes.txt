@@ -1,5 +1,6 @@
 ! uMatrix: Ruleset recipes 1.0
 ! Title: Rulesets for English websites
+! Maintainer: uMatrix
 ! https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes
 ! 	https://github.com/uBlockOrigin/uAssets/blob/4ca25b377bb42add2a1cd753eddb738b89239971/recipes/recipes_en.txt
 ! Lines starting with character "!" are ignored.
