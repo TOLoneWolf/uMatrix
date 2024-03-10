@@ -41,7 +41,6 @@ Discord
 		_ cloudfront.net frame allow
 
 Aliexpress
-	aliexpress.com *
 	aliexpress.us *
 		_ alipay.com * allow
 		_ alipayobjects.com * allow
@@ -62,3 +61,5 @@ Aliexpress
 		_ taobao.com * allow
 		_ wp.aliexpress.com frame allow
 		_ aliexpress.com * allow
+
+!	aliexpress.com *
