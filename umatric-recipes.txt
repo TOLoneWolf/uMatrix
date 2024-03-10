@@ -66,6 +66,7 @@ Aliexpress us
 		_ taobao.com * allow
 		_ wp.aliexpress.com frame allow
 		_ aliexpress.com * allow
+
 Aliexpress com
 	aliexpress.com *
 		_ alipay.com * allow
@@ -134,3 +135,34 @@ Aniwave
 		_ vizcloud.club * allow
 		_ vizcloud.site * allow
 		_ vizcloud.site frame allow
+
+roll20
+	app.roll20.net *
+		_ firebaseio.com * allow
+
+Apple
+	apple.com *
+		_ apple-cloudkit.com * allow
+		_ cdn-apple.com * allow
+		_ icloud.com * allow
+
+Askubuntu
+	askubuntu.com *
+		_ sstatic.net * allow
+
+Ebay
+	ebay.com *
+		_ ebaydesc.com * allow
+		_ ebaydesc.com frame allow
+		_ ebayimg.com * allow
+		_ ebayimg.com frame allow
+		_ ebayrtm.com * allow
+		_ ebaystatic.com * allow
+		_ ebaystatic.com frame allow
+		_ secureir.ebaystatic.com * inherit
+		_ sentry.io * allow
+
+Ebay Desc
+	* ebaydesc.com
+		_ ebaydesc.com * allow
+		_ebaystatic.com * allow
