@@ -322,3 +322,16 @@ steampowered.com
 		_ steamcommunity.com * allow
 		_ steamcommunity.com frame allow
 		_ steamstatic.com * allow
+
+usmobile.com
+	usmobile.com *
+		_ customer.io * allow
+		_ frontapp.com * allow
+		_ securetoken.googleapis.com * allow
+		_ sentry.io * allow
+		_ storage.googleapis.com * allow
+		_ trengo.eu * allow
+		_ trengo.s3.eu-central-1.amazonaws.com * allow
+		_ trengohelp.com * allow
+		_ us-central1-us-mobile-app-test.cloudfunctions.net * allow
+		_ us-central1-us-mobile-app.cloudfunctions.net * allow
