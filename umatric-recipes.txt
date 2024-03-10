@@ -45,8 +45,28 @@ Discord
 		_ cloudfront.net * allow
 		_ cloudfront.net frame allow
 
-Aliexpress
+Aliexpress us
 	aliexpress.us *
+		_ alipay.com * allow
+		_ alipayobjects.com * allow
+		_ itscenter.alipay.com frame allow
+		_ passport.aliexpress.com frame allow
+		_ alicdn.com * allow
+		_ aliapp.org * allow
+		_ alibaba.com * allow
+		_ is.alicdn.com frame allow
+		_ aliexpress-media.com * allow
+		_ aliyun.com * allow
+		_ braintreegateway.com * allow
+		_ click.aliexpress.com * inherit
+		_ ds-aksb-a.akamaihd.net * inherit
+		_ feedback.aliexpress.com frame allow
+		_ login.aliexpress.com frame allow
+		_ sentry.io * allow
+		_ taobao.com * allow
+		_ wp.aliexpress.com frame allow
+		_ aliexpress.com * allow
+Aliexpress com
 	aliexpress.com *
 		_ alipay.com * allow
 		_ alipayobjects.com * allow
