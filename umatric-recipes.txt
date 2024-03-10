@@ -164,6 +164,15 @@ Apple
 		_ cdn-apple.com * allow
 		_ icloud.com * allow
 
+icloud
+	icloud.com *
+		_ apple-cloudkit.com * allow
+		_ apple.com * allow
+		_ cdn-apple.com * allow
+		_ icloud-sandbox.com * allow
+		_ idmsa.apple.com frame allow
+		_ www-mail.icloud-sandbox.com frame allow
+
 Askubuntu
 	askubuntu.com *
 		_ sstatic.net * allow
@@ -211,4 +220,22 @@ Live
 login.live.com
 	login.live.com *
 		_ msauth.net * inherit
+
+facebook
+	facebook.com *
+		_ * script allow
+		_ fbcdn.net * allow
+
+iFixit
+	ifixit.com *
+		_ checkout.shopify.com frame allow
+		_ repair.org * allow
+		_ sentry.io * allow
+		_ shop.app * allow
+		_ shop.app frame allow
+		_ shopify.com * allow
+		_ shopifycloud.com * allow
+		_ shopifysvc.com * allow
+		_ www.youtube-nocookie.com frame allow
+		_ youtube-nocookie.com * allow
 
