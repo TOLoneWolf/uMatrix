@@ -336,7 +336,7 @@ usmobile.com
 		_ us-central1-us-mobile-app-test.cloudfunctions.net * allow
 		_ us-central1-us-mobile-app.cloudfunctions.net * allow
 miruro.tv
-	usmobile.com *
+	miruro.tv *
 		_ aniwatch-api-gamma.vercel.app xhr allow
 		_ anzeat.pro xhr allow
 		_ api.themoviedb.org xhr allow
