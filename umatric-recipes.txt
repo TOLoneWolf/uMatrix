@@ -335,6 +335,7 @@ usmobile.com
 		_ trengohelp.com * allow
 		_ us-central1-us-mobile-app-test.cloudfunctions.net * allow
 		_ us-central1-us-mobile-app.cloudfunctions.net * allow
+
 miruro.tv
 	miruro.tv *
 		_ aniwatch-api-gamma.vercel.app xhr allow
