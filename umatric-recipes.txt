@@ -336,14 +336,17 @@ usmobile.com
 		_ us-central1-us-mobile-app-test.cloudfunctions.net * allow
 		_ us-central1-us-mobile-app.cloudfunctions.net * allow
 
-miruro.tv
+miruro.tv [Zoro]
 	miruro.tv *
-		_ aniwatch-api-gamma.vercel.app xhr allow
-		_ anzeat.pro xhr allow
-		_ api.themoviedb.org xhr allow
-		_ biananset.net xhr allow
-		_ ddf.noitarolpxe.dev xhr allow
-		_ dss.ecapsorea.click xhr allow
-		_ gogocdn.net xhr allow
 		_ graphql.anilist.co xhr allow
-		_ s3taku.com frame allow
+		_ biananset.net xhr allow
+		_ dss.ecapsorea.click xhr allow
+		_ cdn.jsdelivr.net script allow
+
+miruro.tv [Gogo]
+	miruro.tv *
+		_ graphql.anilist.co xhr allow
+		_ anitaku.pe xhr allow
+		_ cdn.jsdelivr.net script allow
+		_ ajax.gogocdn.net xhr allow
+		_ anzeat.pro xhr allow
