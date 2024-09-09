@@ -336,17 +336,54 @@ usmobile.com
 		_ us-central1-us-mobile-app-test.cloudfunctions.net * allow
 		_ us-central1-us-mobile-app.cloudfunctions.net * allow
 
+Google Translate API: globally allow
+    * translate.googleapis.com
+        * translate.googleapis.com xhr
+
+Globally whitelist jsDelivr CDN
+    * cdn.jsdelivr.net
+        * cdn.jsdelivr.net *
+        * cdn.jsdelivr.net script
+
+miruro.tv [Account]
+	miruro.tv *
+		_ anitaku.pe xhr allow
+		_ graphql.anilist.co xhr allow
+
+[Gogo] as 3rd-party
+	* ajax.gogocdn.net
+		_ cdn.jsdelivr.net script allow
+		_ anzeat.pro xhr allow
+		_ ajax.gogocdn.net xhr allow
+
 miruro.tv [Zoro]
 	miruro.tv *
-		_ graphql.anilist.co xhr allow
+		_ cdn.jsdelivr.net script allow
 		_ biananset.net xhr allow
-		_ dss.ecapsorea.click xhr allow
-		_ cdn.jsdelivr.net script allow
+		_ ecapsorea.click xhr allow
+		_ egami.top xhr allow
+		_ erofeb.re xhr allow
+		_ gninrut.xyz xhr allow
+		_ noitarolpxe.dev xhr allow
+		_ repeekooz.com xhr allow
+		_ ycnega.net xhr allow
 
-miruro.tv [Gogo]
-	miruro.tv *
-		_ graphql.anilist.co xhr allow
-		_ anitaku.pe xhr allow
+
+
+[s3taku.com] as 3rd-party
+	* s3taku.com
 		_ cdn.jsdelivr.net script allow
-		_ ajax.gogocdn.net xhr allow
+		_ s3taku.com frame allow
+		_ s3taku.com other allow
+		_ s3taku.com script allow
+		_ s3taku.com xhr allow
 		_ anzeat.pro xhr allow
+		_ cloudatacdn.com media allow
+		_ dood.wf cookie allow
+		_ dood.wf frame allow
+		_ dood.wf script allow
+		_ dood.wf xhr allow
+		_ doodcdn.co script allow
+		_ doodcdn.co xhr allow
+		_ mp4upload.com media allow
+		_ mp4upload.com script allow
