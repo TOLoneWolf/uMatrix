@@ -354,7 +354,8 @@ miruro.tv [Account]
 	miruro.tv *
 		_ graphql.anilist.co xhr allow
 
-miruro.tv [MovieDB Thumbnails]
+[MovieDB API - Thumbnails] as 3rd-party
+	* themoviedb.org
 		_  api.themoviedb.org xhr allow
 
 [GoGoAnime] as 3rd-party
