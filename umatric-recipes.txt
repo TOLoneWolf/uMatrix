@@ -351,7 +351,7 @@ miruro.tv [Account]
 		_ graphql.anilist.co xhr allow
 
 [Gogo] as 3rd-party
-	* ajax.gogocdn.net
+	* gogocdn.net
 		_ cdn.jsdelivr.net script allow
 		_ anzeat.pro xhr allow
 		_ ajax.gogocdn.net xhr allow
@@ -367,12 +367,12 @@ miruro.tv [Zoro]
 		_ noitarolpxe.dev xhr allow
 		_ repeekooz.com xhr allow
 		_ ycnega.net xhr allow
-
-
+		_ nwodhcuot.pm xhr allow
 
 [s3taku.com] as 3rd-party
 	* s3taku.com
 		_ cdn.jsdelivr.net script allow
+		_ s3taku.com *
 		_ s3taku.com frame allow
 		_ s3taku.com other allow
 		_ s3taku.com script allow
@@ -387,3 +387,10 @@ miruro.tv [Zoro]
 		_ doodcdn.co xhr allow
 		_ mp4upload.com media allow
 		_ mp4upload.com script allow
+
+awish.pro
+	awish.pro *
+		_ awish.pro script allow
+		_ awish.pro xhr allow
+		_ awish.pro frame allow
+		_ pradoi.com xhr allow
