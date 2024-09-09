@@ -372,6 +372,32 @@ miruro.tv [Zoro]
 
 [s3taku.com][Gogoanime][Vidstream] as 3rd-party
 	* anitaku.pe
+		_ cdn.jsdelivr.net script allow
+		_ anitaku.pe xhr allow
+		_ anzeat.pro xhr allow
+		_ ajax.gogocdn.net xhr allow
+		_ s3taku.com cookie allow
+		_ s3taku.com frame allow
+		_ s3taku.com other allow
+		_ s3taku.com script allow
+		_ s3taku.com xhr allow
+		_ anzeat.pro xhr allow
+		_ cloudatacdn.com media allow
+		_ dood.wf cookie allow
+		_ dood.wf frame allow
+		_ dood.wf script allow
+		_ dood.wf xhr allow
+		_ doodcdn.co script allow
+		_ doodcdn.co xhr allow
+		_ mp4upload.com media allow
+		_ mp4upload.com script allow
+		_ awish.pro cookie allow
+		_ awish.pro script allow
+		_ awish.pro xhr allow
+		_ awish.pro frame allow
+		_ pradoi.com xhr allow
+
+[s3taku.com][Gogoanime][Vidstream] as 3rd-party
 	* s3taku.com
 		_ anitaku.pe xhr allow
 		_ ajax.gogocdn.net xhr allow
