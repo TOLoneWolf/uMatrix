@@ -345,15 +345,19 @@ Globally whitelist jsDelivr CDN
 !        * cdn.jsdelivr.net *
         * cdn.jsdelivr.net script
 
+[GoGoAnime]
+	gogoanime3.co *
+		_ ajax.gogocdn.net xhr allow
+		_ cnd.gogocdn.net script allow
+
 miruro.tv [Account]
 	miruro.tv *
-		_ anitaku.pe xhr allow
 		_ graphql.anilist.co xhr allow
 
 miruro.tv [MovieDB Thumbnails]
 		_  api.themoviedb.org xhr allow
 
-[Gogoanime] as 3rd-party
+[GoGoAnime] as 3rd-party
 	* anitaku.pe
 		_ cdn.jsdelivr.net script allow
 		_ anitaku.pe xhr allow
