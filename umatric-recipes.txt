@@ -370,9 +370,11 @@ miruro.tv [Zoro]
 		_ repeekooz.com xhr allow
 		_ ycnega.net xhr allow
 
-[s3taku.com][Vidstream] as 3rd-party
+[s3taku.com][Gogoanime][Vidstream] as 3rd-party
 	* anitaku.pe
 	* s3taku.com
+		_ anitaku.pe xhr allow
+		_ ajax.gogocdn.net xhr allow
 		_ cdn.jsdelivr.net script allow
 		_ s3taku.com cookie allow
 		_ s3taku.com frame allow
