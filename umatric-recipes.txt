@@ -373,6 +373,7 @@ miruro.tv [Zoro]
 [s3taku.com][Vidstream] as 3rd-party
 	* s3taku.com
 		_ cdn.jsdelivr.net script allow
+		_ s3taku.com cookie allow
 		_ s3taku.com frame allow
 		_ s3taku.com other allow
 		_ s3taku.com script allow
@@ -387,9 +388,15 @@ miruro.tv [Zoro]
 		_ doodcdn.co xhr allow
 		_ mp4upload.com media allow
 		_ mp4upload.com script allow
+		_ awish.pro cookie allow
+		_ awish.pro script allow
+		_ awish.pro xhr allow
+		_ awish.pro frame allow
+		_ pradoi.com xhr allow
 
 [awish.pro][Vidstream] as 3rd-party
 	* awish.pro
+		_ awish.pro cookie allow
 		_ awish.pro script allow
 		_ awish.pro xhr allow
 		_ awish.pro frame allow
