@@ -371,6 +371,7 @@ miruro.tv [Zoro]
 		_ ycnega.net xhr allow
 
 [s3taku.com][Vidstream] as 3rd-party
+	* anitaku.pe
 	* s3taku.com
 		_ cdn.jsdelivr.net script allow
 		_ s3taku.com cookie allow
