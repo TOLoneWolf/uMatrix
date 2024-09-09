@@ -370,7 +370,7 @@ miruro.tv [Zoro]
 		_ repeekooz.com xhr allow
 		_ ycnega.net xhr allow
 
-[s3taku.com] as 3rd-party
+[s3taku.com][Vidstream] as 3rd-party
 	* s3taku.com
 		_ cdn.jsdelivr.net script allow
 		_ s3taku.com frame allow
@@ -388,8 +388,8 @@ miruro.tv [Zoro]
 		_ mp4upload.com media allow
 		_ mp4upload.com script allow
 
-awish.pro
-	awish.pro *
+[awish.pro][Vidstream] as 3rd-party
+	* awish.pro
 		_ awish.pro script allow
 		_ awish.pro xhr allow
 		_ awish.pro frame allow
