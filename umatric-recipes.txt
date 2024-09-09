@@ -342,7 +342,7 @@ Google Translate API: globally allow
 
 Globally whitelist jsDelivr CDN
     * cdn.jsdelivr.net
-        * cdn.jsdelivr.net *
+!        * cdn.jsdelivr.net *
         * cdn.jsdelivr.net script
 
 miruro.tv [Account]
@@ -350,29 +350,29 @@ miruro.tv [Account]
 		_ anitaku.pe xhr allow
 		_ graphql.anilist.co xhr allow
 
-[Gogo] as 3rd-party
-	* gogocdn.net
+[Gogoanime] as 3rd-party
+	* anitaku.pe
 		_ cdn.jsdelivr.net script allow
+		_ anitaku.pe xhr allow
 		_ anzeat.pro xhr allow
 		_ ajax.gogocdn.net xhr allow
 
 miruro.tv [Zoro]
 	miruro.tv *
-		_ cdn.jsdelivr.net script allow
 		_ biananset.net xhr allow
 		_ ecapsorea.click xhr allow
 		_ egami.top xhr allow
 		_ erofeb.re xhr allow
 		_ gninrut.xyz xhr allow
+		_ lacinhcet.com xhr allow
 		_ noitarolpxe.dev xhr allow
+		_ nwodhcuot.pm xhr allow
 		_ repeekooz.com xhr allow
 		_ ycnega.net xhr allow
-		_ nwodhcuot.pm xhr allow
 
 [s3taku.com] as 3rd-party
 	* s3taku.com
 		_ cdn.jsdelivr.net script allow
-		_ s3taku.com *
 		_ s3taku.com frame allow
 		_ s3taku.com other allow
 		_ s3taku.com script allow
