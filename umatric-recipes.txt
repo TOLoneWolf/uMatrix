@@ -350,6 +350,9 @@ miruro.tv [Account]
 		_ anitaku.pe xhr allow
 		_ graphql.anilist.co xhr allow
 
+miruro.tv [MovieDB Thumbnails]
+		_  api.themoviedb.org xhr allow
+
 [Gogoanime] as 3rd-party
 	* anitaku.pe
 		_ cdn.jsdelivr.net script allow
@@ -370,7 +373,7 @@ miruro.tv [Zoro]
 		_ repeekooz.com xhr allow
 		_ ycnega.net xhr allow
 
-[s3taku.com][Gogoanime][Vidstream] as 3rd-party
+[Gogoanime][Vidstream] as 3rd-party
 	* anitaku.pe
 		_ cdn.jsdelivr.net script allow
 		_ anitaku.pe xhr allow
@@ -397,7 +400,7 @@ miruro.tv [Zoro]
 		_ awish.pro frame allow
 		_ pradoi.com xhr allow
 
-[s3taku.com][Gogoanime][Vidstream] as 3rd-party
+[s3taku.com][Vidstream] as 3rd-party
 	* s3taku.com
 		_ anitaku.pe xhr allow
 		_ ajax.gogocdn.net xhr allow
