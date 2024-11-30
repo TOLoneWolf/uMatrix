@@ -26,7 +26,6 @@
 !		_ ytimg.com *
 !		_ ytimg.com script
 
-
 Global Paypal
 	* paypal.com
 		* paypal.com * allow
@@ -42,7 +41,6 @@ Global ReCaptcha
 	* recaptcha.net
 		* recaptcha.net * allow
 		* recaptcha.net frame allow
-
 
 Amazon
 	amazon.com *
@@ -114,21 +112,21 @@ Aniwave
 		aniwave.com.es jquery.com script allow
 		aniwave.com.es jsdelivr.net script allow
 		aniwave.com.es cdn.aniwave.lat xhr allow
-		! -	(s3embtaku.pro)
+!		 -	(s3embtaku.pro)
 		aniwave.com.es embtaku.pro frame allow
 		aniwave.com.es s3embtaku.pro frame allow
 		aniwave.com.es s3embtaku.pro script allow
 		aniwave.com.es s3embtaku.pro xhr allow
-		! --	(VidStreaming / Multiquality Server)
+!		 --	(VidStreaming / Multiquality Server)
 		aniwave.com.es anzeat.pro xhr allow
-		! -	(Vidplay)
+!		 -	(Vidplay)
 		aniwave.com.es ssl.p.jwpcdn.com script allow
-		! --	(awish.pro)
+!		 --	(awish.pro)
 		aniwave.com.es awish.pro frame allow
 		aniwave.com.es awish.pro script allow
 		aniwave.com.es awish.pro xhr allow
 		aniwave.com.es premilkyway.com xhr allow
-		! --	(dood.wf)
+!		 --	(dood.wf)
 		aniwave.com.es dood.wf frame allow
 		aniwave.com.es dood.wf script allow
 		aniwave.com.es dood.wf xhr allow
@@ -136,12 +134,11 @@ Aniwave
 		aniwave.com.es static.doodcdn.co script allow
 		aniwave.com.es cdnjs.cloudflare.com script allow
 		aniwave.com.es *.cloudfront.net script allow
-		! -	(alions.pro / Filelions)
+!		 -	(alions.pro / Filelions)
 		aniwave.com.es alions.pro frame allow
 		aniwave.com.es alions.pro script allow
 		aniwave.com.es alions.pro xhr allow
 		aniwave.com.es milocdn.com xhr allow
-
 
 roll20
 	app.roll20.net *
