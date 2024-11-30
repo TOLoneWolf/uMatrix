@@ -114,24 +114,20 @@ Aniwave
 		aniwave.com.es jquery.com script allow
 		aniwave.com.es jsdelivr.net script allow
 		aniwave.com.es cdn.aniwave.lat xhr allow
-		
 		! -	(s3embtaku.pro)
 		aniwave.com.es embtaku.pro frame allow
 		aniwave.com.es s3embtaku.pro frame allow
 		aniwave.com.es s3embtaku.pro script allow
 		aniwave.com.es s3embtaku.pro xhr allow
-		
 		! --	(VidStreaming / Multiquality Server)
 		aniwave.com.es anzeat.pro xhr allow
 		! -	(Vidplay)
 		aniwave.com.es ssl.p.jwpcdn.com script allow
-		
 		! --	(awish.pro)
 		aniwave.com.es awish.pro frame allow
 		aniwave.com.es awish.pro script allow
 		aniwave.com.es awish.pro xhr allow
 		aniwave.com.es premilkyway.com xhr allow
-		
 		! --	(dood.wf)
 		aniwave.com.es dood.wf frame allow
 		aniwave.com.es dood.wf script allow
@@ -140,7 +136,6 @@ Aniwave
 		aniwave.com.es static.doodcdn.co script allow
 		aniwave.com.es cdnjs.cloudflare.com script allow
 		aniwave.com.es *.cloudfront.net script allow
-		
 		! -	(alions.pro / Filelions)
 		aniwave.com.es alions.pro frame allow
 		aniwave.com.es alions.pro script allow
