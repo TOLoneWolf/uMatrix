@@ -108,7 +108,7 @@ Aliexpress com
 		_ aliexpress.us * allow
 
 Aniwave
-	aniwave.com.es
+	aniwave.com.es *
 		aniwave.com.es cdnjs.cloudflare.com script allow
 		aniwave.com.es cdn.animixplay.tube script allow
 		aniwave.com.es jquery.com script allow
